@@ -1,0 +1,10 @@
+export const START_QUIZ = "START_QUIZ";
+export const SUBMIT_QUIZ = "SUBMIT_QUIZ";
+export const CLOSE_TEST = "CLOSE_TEST";
+export const NEXT_QUESTION = "NEXT_QUESTION";
+export const SET_TIMER = "SET_TIMER";
+export const SET_MODE = "SET_MODE";
+export const SET_SELECTED_ANSWER = "SET_SELECTED_ANSWER";
+export const SET_CURRENT_QUESTION_INDEX = "SET_CURRENT_QUESTION_INDEX";
+export const SET_QUIZ_DATA = "SET_QUIZ_DATA";
+export const SET_QUIZ_RESULTS = "SET_QUIZ_RESULTS";

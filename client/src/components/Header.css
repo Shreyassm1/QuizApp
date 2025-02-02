@@ -1,0 +1,133 @@
+.header-container {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.logo-img img {
+  width: 150px;
+  height: auto;
+}
+
+.logout-btn,
+.site-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.logout-btn button,
+.site-btn button {
+  padding: 8px 16px;
+  background-color: #292763;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.site-btn button {
+  background-color: #31918c;
+}
+
+.logout-btn button:hover,
+.site-btn button:hover {
+  background-color: #5c4cb3;
+  transform: scale(1.05);
+}
+
+.download-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.download-app-icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.download-app-text {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.download-app-text:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .icon-box {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo-img {
+    margin-bottom: 10px;
+  }
+
+  .logout-btn,
+  .site-btn,
+  .download-app {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .logout-btn button,
+  .site-btn button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .download-app-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-img img {
+    width: 120px;
+  }
+
+  .logout-btn button,
+  .site-btn button {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .download-app-text {
+    font-size: 16px;
+  }
+}

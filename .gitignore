@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Vite
+/dist
+/.vite
+
+# Environment files
+.env
+
+# Logs
+logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: If you are using VSCode, this can help avoid tracking IDE-specific files
+.vscode/

@@ -1,0 +1,138 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.auth-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form .form_title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form .input_fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.login-form .input-box {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form .button button {
+  padding: 12px;
+  background-color: #007b9d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-form .button button:hover {
+  background-color: #005f7b;
+  transform: scale(1.05);
+}
+
+.login-form .regiter-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-form .regiter-link a {
+  color: #007b9d;
+  text-decoration: none;
+}
+
+.login-form .regiter-link a:hover {
+  text-decoration: underline;
+}
+
+.register-form .form_title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.register-form .input_fields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.register-form .input-box {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-form .form-button button {
+  padding: 12px;
+  background-color: #007b9d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-form .form-button button:hover {
+  background-color: #005f7b;
+  transform: scale(1.05);
+}
+
+.register-form .login-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-form .login-link a {
+  color: #007b9d;
+  text-decoration: none;
+}
+
+.register-form .login-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .auth-form {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .login-form .button button,
+  .register-form .form-button button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .login-form .input-box,
+  .register-form .input-box {
+    font-size: 14px;
+  }
+}
